@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
+  </head>
+  <body>
+    <h1>Preferences</h1>
+    <ul class="tg-list options">
+      <li class="tg-list-item option">
+        <h4>Make you invisible for chat</h4>
+        <input class="tgl tgl-light" id="invisible-mode" type="checkbox" />
+        <label class="tgl-btn" for="invisible-mode"></label>
+      </li>
+      <li class="tg-list-item option">
+        <h4>Hide 'Seen' when you read message</h4>
+        <input class="tgl tgl-light" id="unseen-mode" type="checkbox" />
+        <label class="tgl-btn" for="unseen-mode"></label>
+      </li>
+      <li class="tg-list-item option">
+        <h4>Hide 'Typing' indicator when you reply</h4>
+        <input class="tgl tgl-light" id="typing-mode" type="checkbox" />
+        <label class="tgl-btn" for="typing-mode"></label>
+      </li>
+    </ul>
+    <div id="status"></div>
+    <div class="action-buttons">
+      <button class="btn" id="save">Save</button>
+    </div>
+    <script src="js/options.js"></script>
+  </body>
+</html>

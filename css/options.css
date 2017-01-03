@@ -1,0 +1,134 @@
+body {
+  padding: 5px;
+  min-width: 300px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #777;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.options {
+  margin-bottom: 15px;
+}
+
+.options .option {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.options .external-links {
+  padding: 10px 0;
+}
+
+#status {
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  border-color: #fff !important;
+  background: #335e7a;
+  box-shadow: none !important;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn:hover {
+  border-color: #fff !important;
+  background: #3cb0fd !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.tg-list-item {
+  margin: 0 2em;
+}
+
+.tgl {
+  display: none;
+}
+
+.tgl,
+.tgl:after,
+.tgl:before,
+.tgl *,
+.tgl *:after,
+.tgl *:before,
+.tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+
+.tgl::selection,
+.tgl:after::selection,
+.tgl:before::selection,
+.tgl *::selection,
+.tgl *:after::selection,
+.tgl *:before::selection,
+.tgl + .tgl-btn::selection {
+  background: none;
+}
+
+.tgl + .tgl-btn {
+  position: relative;
+  display: block;
+  width: 4em;
+  height: 2em;
+  outline: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tgl + .tgl-btn:after,
+.tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  width: 50%;
+  height: 100%;
+  content: "";
+}
+
+.tgl + .tgl-btn:after {
+  left: 0;
+}
+
+.tgl + .tgl-btn:before {
+  display: none;
+}
+
+.tgl:checked + .tgl-btn:after {
+  left: 50%;
+}
+
+.tgl-light + .tgl-btn {
+  padding: 2px;
+  border-radius: 2em;
+  background: #f0f0f0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.tgl-light + .tgl-btn:after {
+  border-radius: 50%;
+  background: #fff;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.tgl-light:checked + .tgl-btn {
+  background: #9fd6ae;
+}
