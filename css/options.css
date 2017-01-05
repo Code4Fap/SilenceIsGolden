@@ -117,7 +117,7 @@ li {
 .tgl-light + .tgl-btn {
   padding: 2px;
   border-radius: 2em;
-  background: #f0f0f0;
+  background: #bdb1b1;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
@@ -130,5 +130,5 @@ li {
 }
 
 .tgl-light:checked + .tgl-btn {
-  background: #9fd6ae;
+  background: #8BC34A;
 }
