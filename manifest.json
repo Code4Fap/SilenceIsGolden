@@ -2,9 +2,9 @@
   "manifest_version": 2,
   "name": "Silence is Golden for FB",
   "short_name": "Silence is Golden for FB",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Silence is Golden - Make you invisible on Facebook",
-  "homepage_url": "https://huynq.net/",
+  "homepage_url": "https://ext.huynq.net/",
   "background": {
     "scripts": [ "js/background.js" ]
   },
