@@ -16,7 +16,7 @@ class SilenceIsGolden {
           '*://*.messenger.com/*mark_seen*',
         ],
       },
-      ['blocking']
+      ['blocking'],
     );
 
     chrome.webRequest.onBeforeRequest.addListener(
@@ -27,7 +27,7 @@ class SilenceIsGolden {
           '*://*.messenger.com/*typ.php*',
         ],
       },
-      ['blocking']
+      ['blocking'],
     );
 
     chrome.webRequest.onBeforeRequest.addListener(
@@ -37,7 +37,7 @@ class SilenceIsGolden {
           '*://*.facebook.com/ufi/typing/*',
         ],
       },
-      ['blocking']
+      ['blocking'],
     );
 
     chrome.webRequest.onBeforeRequest.addListener(
@@ -45,7 +45,7 @@ class SilenceIsGolden {
       {
         urls: this.getBlockedUrls(),
       },
-      ['blocking']
+      ['blocking'],
     );
 
     chrome.webRequest.onBeforeRequest.addListener(
@@ -84,7 +84,7 @@ class SilenceIsGolden {
           '*://www.messenger.com/ajax/presence/*',
         ],
       },
-      ['blocking']
+      ['blocking'],
     );
   }
 }
