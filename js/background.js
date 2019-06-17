@@ -14,6 +14,11 @@ class SilenceIsGolden {
           '*://*.facebook.com/*mark_seen*',
           '*://*.messenger.com/*change_read_status*',
           '*://*.messenger.com/*mark_seen*',
+          '*://*.facebook.com/*delivery_receipts.php*',
+          '*://*.messenger.com/*delivery_receipts.php*',
+          '*://*.facebook.com/api/graphqlbatch/*',
+          '*://*.facebook.com/api/graphql/*',
+          '*://*.instagram.com/stories/reel/seen*'
         ],
       },
       ['blocking'],
@@ -25,6 +30,7 @@ class SilenceIsGolden {
         urls: [
           '*://*.facebook.com/*typ.php*',
           '*://*.messenger.com/*typ.php*',
+          '*://*.facebook.com/ufi/typing/*'
         ],
       },
       ['blocking'],
